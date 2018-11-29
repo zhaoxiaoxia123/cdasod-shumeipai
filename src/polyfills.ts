@@ -78,3 +78,6 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+//xxx--  Uncaught TypeError: Cannot read property 'fn' of undefined
+import * as jQuery from 'jquery';
+window['jQuery'] = jQuery;
