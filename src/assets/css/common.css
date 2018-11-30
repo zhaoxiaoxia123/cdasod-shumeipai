@@ -1,0 +1,10 @@
+/*常用样式*/
+.text-center{
+    text-align:center;
+}
+
+/*背景颜色*/
+.bg-white{
+    background-color:#fff;
+    border: 1px solid #d7dde4;
+}

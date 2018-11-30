@@ -1,0 +1,107 @@
+body{
+    width: 1920px;
+    height: 1080px;
+    background-color:#f5f7f9;
+    margin: 0;
+    color:#18202d;
+}
+ul,li{ padding:0;margin:0;list-style:none}
+.min-center{
+    width:100%;
+    height:100%;
+}
+.nt-panel{
+    padding: 20px;
+}
+.nt-top{
+    width:1920px;
+    height:60px;
+    background:#f79657
+}
+.nt-frame{
+    padding:20px 0 20px 20px;
+}
+.nt-top .text-center span{
+    line-height: 60px;
+    font-size: 24px;
+    color: #fff;
+    padding-right: 10px;
+}
+.nt-left{
+    width:150px;
+    height:976px;
+
+    /*position: fixed;*/
+    float: left;
+    margin-right: 20px;
+     text-align: center;
+    cursor: pointer
+}
+
+.nt-plate{
+    background: #c3cbd6;
+    padding: 10px 4px;
+    margin-bottom: 20px;
+}
+.nt-plate div span{
+    font-size:30px;
+}
+.nt-center{
+    width:1180px;
+    height:976px;
+    margin-right: 20px;
+    float: left;
+}
+.nt-center-1{
+    width:1180px;
+    height:860px;
+}
+.nt-center-2{
+    width: 1180px;
+    height: 96px;
+}
+.nt-right{
+    width:506px;
+    height:976px;
+    margin-right: 20px;
+    float:left;
+}
+.nt-mt20{
+    margin-top:20px;
+}
+.nt-data{
+    background: #c3cbd6;
+    margin-right: 20px;
+    pddding-left:10px;
+    display: inline-block;
+    width: 260px;
+    height: 60px;
+    line-height: 60px;
+}
+.nt-data span{
+    font-size:18px;
+    padding-left:20px;
+}
+.nt-data .nt-data-sapn{
+    font-size:36px;
+}
+.nt-title h1{
+    font-size:24px;
+    color:#f79657;
+}
+
+.nt-tack-book span{
+    font-size:18px;
+    line-height:2em;
+}
+.nt-tack-btn{
+    margin-top:10px;
+}
+.nt-tack-btn button{
+    font-size:18px;
+  margin-right:10px;
+    cursor: pointer
+}
+.modal-header{
+  display: inline-block;
+}
