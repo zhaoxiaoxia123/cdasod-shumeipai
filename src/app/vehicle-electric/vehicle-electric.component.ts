@@ -1,13 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-vehicle-electric',
+  templateUrl: './vehicle-electric.component.html'
 })
-export class AppComponent {
-  title = '电动轮';
+export class VehicleElectricComponent implements OnInit {
 
+  constructor() { }
+
+  ngOnInit() {
+  }
   option = {
     title : {
       text: '男性女性身高体重分布',

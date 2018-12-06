@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require("electron");
+npm run startconst { app, BrowserWindow } = require("electron");
 const path = require("path");
 const url = require("url");
 

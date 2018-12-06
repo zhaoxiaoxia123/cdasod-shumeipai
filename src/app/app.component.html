@@ -1,169 +1,6 @@
-<div class="min-center">
+<app-vehicle-electric></app-vehicle-electric>
 
-  <div class="nt-top">
-    <div class="text-center">
-      <span>2018-11-29</span>
-      <span>11:28  </span>
-      <span>星期四</span>
-    </div>
-
-  </div>
-
-  <div class="nt-frame">
-    <!--左侧导航开始-->
-    <div class="nt-left bg-white">
-      <div class=" nt-panel nt-min-height">
-        <div class="text-center nt-plate "  data-toggle="modal" data-target="#myModal">
-          <img src="./assets/images/icon1.png">
-          <div >
-            <span>紧急</span>
-          </div>
-        </div>
-        <div class="text-center nt-plate">
-          <img src="./assets/images/icon2.png">
-          <div >
-            <span>报修</span>
-          </div>
-        </div>
-        <div class="text-center nt-plate">
-          <img src="./assets/images/icon3.png">
-          <div >
-            <span>加油</span>
-          </div>
-        </div>
-        <div class="text-center nt-plate">
-          <img src="./assets/images/icon4.png">
-          <div >
-            <span>对讲</span>
-          </div>
-        </div>
-        <div class="text-center nt-plate">
-          <img src="./assets/images/icon6.png">
-          <div >
-            <span>测试</span>
-          </div>
-        </div>
-        <div class="text-center nt-plate">
-          <img src="./assets/images/icon5.png">
-          <div >
-            <span>退出</span>
-          </div>
-        </div>
-
-      </div>
-
-
-
-    </div>
-    <!--左侧导航结果-->
-
-    <!--中间部分-->
-    <div class="nt-center">
-      <div class="nt-center-1 bg-white">
-        <div class="nt-panel">
-          <div class="nt-title">
-            <h1>欢迎&nbsp;&nbsp;张三...</h1>
-          </div>
-          <div echarts [options]="option" style="width: 100%;height:720px;" class="demo-chart"></div>
-
-        </div>
-
-      </div>
-      <div class="nt-center-2 bg-white nt-mt20">
-        <div class="nt-panel">
-          <div class="nt-data">
-            <span>电流</span>
-            <span class="nt-data-sapn">4.8 </span>
-            <span>A</span>
-          </div>
-          <div class="nt-data">
-            <span>电压</span>
-            <span class="nt-data-sapn">26.5</span>
-            <span>V</span>
-          </div>
-          <div class="nt-data">
-            <span>胎压</span>
-            <span class="nt-data-sapn">200</span>
-            <span>kp</span>
-          </div>
-          <div class="nt-data">
-            <span>油表</span>
-            <span class="nt-data-sapn">100 </span>
-            <span>L</span>
-          </div>
-
-        </div>
-
-
-      </div>
-
-
-    </div>
-
-    <div class="nt-right bg-white">
-      <div class=" nt-panel nt-min-height">
-        <div class="nt-tack nt-title">
-          <h1>当前任务</h1>
-          <div class="">
-            <div class="nt-tack-book">
-              <span><strong>姓名：</strong>张三</span>
-            </div>
-            <div class="nt-tack-book">
-              <span><strong>车牌：</strong>辽B23142</span>
-            </div>
-            <div class="nt-tack-book">
-              <span><strong>目的地：</strong>C2采区<a>【路径规划】</a></span>
-            </div>
-            <div class="nt-tack-book">
-              <span><strong>任务描述：</strong>C2采区排岩500t,拉矿至北破1500t。</span>
-            </div>
-          </div>
-          <div class="nt-tack-btn">
-            <button class="btn btn-warning btn-lg" data-target="#myModal2" data-toggle="modal" data-target=".bs-example-modal-lg">开始任务</button>
-            <button class="btn btn-default btn-lg disabled">取消任务</button>
-          </div>
-          <div class="nt-tack-book">
-            <span><strong>开始时间：</strong>19：00</span>
-          </div>
-          <div>
-            <div class="nt-tack-book">
-              <span><strong>当前排岩进度：</strong>（目标：100t）</span>
-            </div>
-            <div class="progress progress-striped">
-              <div class="progress-bar progress-bar-warning" role="progressbar"
-                   aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                   style="width: 40%;">
-                <span class="sr-only">40% 完成</span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="nt-tack-book">
-              <span><strong>当前拉矿进度：</strong>（目标：200t）</span>
-            </div>
-            <div class="progress progress-striped">
-              <div class="progress-bar progress-bar-warning" role="progressbar"
-                   aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                   style="width: 10%;">
-                <span class="sr-only">10% 完成</span>
-              </div>
-            </div>
-          </div>
-
-
-
-
-        </div>
-
-      </div>
-    </div>
-
-
-  </div>
-
-
-</div>
-
+<!--<app-login></app-login>-->
 
 
 <div class="modal fade bs-example-modal-lg" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -174,11 +11,11 @@
 
       </div>
       <div class="modal-body">
-        <div echarts [options]="option" style="width: 100%;height:720px;" class="demo-chart"></div>
+        <div echarts [options]="option" style="width: 100%;height:420px;" class="demo-chart"></div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">保存</button>
       </div>
     </div>
   </div>
@@ -189,14 +26,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">电动轮</h4>
       </div>
       <div class="modal-body">
-       大哥大法官好好计划和价格改好
+       内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">保存</button>
       </div>
     </div>
   </div>
