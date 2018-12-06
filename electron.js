@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require("electron");
+const { app, globalShortcut,BrowserWindow } = require("electron");
 const path = require("path");
 const url = require("url");
 
@@ -15,7 +15,10 @@ function createWindow() {
             slashes: true
         })
     );
-
+    win.setFullScreen(true);
+    globalShortcut.register('ESC', () => {
+        win.setFullScreen(false);
+    });
     // The following is optional and will open the DevTools:
     win.webContents.openDevTools();
     win.on("closed", () => {
