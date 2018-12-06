@@ -5,6 +5,6 @@
 @import "assets/css/common.css";
 @import "assets/css/skin.css";
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, 'Microsoft Yahei',sans-serif }
 
 
