@@ -7,6 +7,7 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import { NgxEchartsModule } from "ngx-echarts";
 import { LoginComponent } from './login/login.component';
 import { VehicleElectricComponent } from './vehicle-electric/vehicle-electric.component';
+import {AppRoutingModule} from "./app-routing.module";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { VehicleElectricComponent } from './vehicle-electric/vehicle-electric.co
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
-    NgxEchartsModule
+    NgxEchartsModule,
+    AppRoutingModule
   ],
   exports: [MatButtonModule, MatCheckboxModule],
   providers: [],
